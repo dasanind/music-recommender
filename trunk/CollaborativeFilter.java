@@ -120,7 +120,7 @@ public class CollaborativeFilter {
                     users.add(usr.getUserId());
                 }
 
-                rs = st.executeQuery("select userId, songId, rating from Train1 where userId in (" + activeUser + "," + toString(users.toArray(), ",", ",") + ")");
+                rs = st.executeQuery("select userId, songId, rating from " + tableName + " where userId in (" + activeUser + "," + toString(users.toArray(), ",", ",") + ")");
                 while (rs.next()) {
                     int u = rs.getInt(1);
                     int s = rs.getInt(2);
