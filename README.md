@@ -7,11 +7,12 @@ proaches of recommendation - Content Based Filtering, Collaborative filtering an
 Filtering. We tested these approaches on 2 partitions of the dataset.
 The Software environment used for implementation consists of the Java Program-
 ming language and the MySql Database. Java Machine Learning Library (Java-ML),
-4http://java-ml.sourceforge.net/, provides an API to a collection of machine learn-
+http://java-ml.sourceforge.net/, provides an API to a collection of machine learn-
 ing algorithms which is used for handling the datasets and computation purposes (like
 Jaccard Set Similarity etc.). MySql Database is used to store the training, test, song
 attributes and few temporary tables for the purpose of implementing the content-based,
 collaborative and hybrid approaches.
+
 
 Content-Based Filtering
 
